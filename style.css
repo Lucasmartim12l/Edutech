@@ -16,8 +16,13 @@ body{
         justify-content: space-between;
     }
     
-    .login{
-
+    .Login{
+        background-color: transparent;
+        border-color: #fff;
+        border-radius: 16px;
+        color: #fff;
+        height: 2.25rem;
+        padding-inline: 2rem;
     }
     a{
         display: flex;
