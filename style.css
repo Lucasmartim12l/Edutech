@@ -240,3 +240,33 @@ margin-right: 0.7rem;
 }
 
 }
+
+
+.h2-missao{
+    width: 21rem;
+    color: #FFF;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 900;
+    margin-left: 31.09rem;
+    margin-top: 12.875rem;
+}
+
+.p-missao{
+width: 27.6875rem;
+height: 6.25rem;
+color: #FFF;
+font-family: Montserrat;
+font-size: 1.06rem;
+font-style: normal;
+font-weight: 500;
+margin-left: 31.09rem;
+}
+
+.linha-verde1{
+    margin-left: 31.09rem;
+    width: 21rem;
+    height: 0.1rem;
+margin-top: 0.7rem;
+margin-right: 0.7rem;
+}
