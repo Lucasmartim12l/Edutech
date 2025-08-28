@@ -311,7 +311,7 @@ margin-right: 0.7rem;
 
 .sobre-nos{
     display: flex;
-    margin-top: 15rem;
+    margin-top: 5rem;
 
     .ilha{
         margin-left: 31.09rem;
@@ -327,4 +327,57 @@ margin-right: 0.7rem;
 
 .nos{
     margin-left: 3rem;
+}
+
+.exploracao{
+    display: flex;
+    justify-content: center;
+}
+
+.explore{
+    color: #FFF;
+font-size: 4.375rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.linha3{
+    width: 48.25rem;
+    height: 0.18rem;
+}
+
+.linha-verde3{
+    display: flex;
+    justify-content: center;
+}
+
+.biomas{
+    width: 90rem;
+height: 49.56rem; 
+margin-left: 15rem;
+margin-top: 11rem;
+    background: radial-gradient(23.5% 40.61% at 50.83% 57.76%, rgba(0, 0, 0, 0.00) 0%, #011428 100%), #083059;
+}
+
+
+.h3-carrossel{
+    color: #FFF;
+text-align: justify;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5625rem; 
+}
+
+.p-carrossel{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+width: 32.0625rem;
+opacity: 0.7;
 }
