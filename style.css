@@ -364,7 +364,8 @@ margin-top: 11rem;
 
 .h3-carrossel{
     color: #FFF;
-text-align: justify;
+align-items: center;
+justify-content: center;
 font-size: 1.375rem;
 font-style: normal;
 font-weight: 500;
@@ -381,3 +382,61 @@ font-weight: 500;
 width: 32.0625rem;
 opacity: 0.7;
 }
+
+
+.carrossel {
+    position: relative;
+    width: 600px;
+    overflow: hidden;
+    margin-top: 6.5rem;
+    margin-left: 26rem;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  
+  .slide {
+    min-width: 100%;
+    text-align: center;
+  }
+  
+  .slide img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .h3-carrossel {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 50%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: none;
+  }
+  
+  .btn.prev {
+    left: 10px;
+    position: fixed;
+  }
+  
+  .btn.next {
+    right: 10px;
+    position: fixed;
+  }
+  
+  .p-carrossel {
+    margin-top: 10rem;
+    margin-left: 26rem;
+    
+  }
+  
