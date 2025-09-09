@@ -527,3 +527,19 @@ font-family: "Montserrat", sans-serif;
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
   }
+
+
+
+  .game-section{
+    margin-top: 40rem;
+    margin-right: 300rem;
+    width: 87rem;
+     height: 100vh;
+      
+  }
+
+
+  .fornalha{
+    height: 100vh;
+    margin-right: 40rem;
+  }

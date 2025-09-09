@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(23.5% 40.61% at 50.83% 57.76%, rgba(0, 0, 0, 0) 0%, #011428 100%), #083059;  
+    background-position: center;
+    background-size: cover;
+    font-family: Nexa, Arial, sans-serif;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 6rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+
+nav img {
+    width: 5.8rem;
+    height: 6rem;
+    flex-shrink: 0;
+    opacity: 0.9;
+    border: none;
+    outline: none;
+
+
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: normal;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+    
+}
+
+
+
+
+.cnt {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #318B55;
+    text-decoration-thickness: 0.125rem; /* 2px */
+    text-underline-offset: 0.3125rem;    /* 5px */
+}
+
+
+.login {
+    width: 8rem;
+    height: 2.31rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    border: 0.125rem solid #FFF;
+    opacity: 0.9;
+    background-color: #021325;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.seta{
+ 
+  gap: 6rem;
+    padding-left: 55.20rem;
+}
+.home {
+    display: flex;
+}
+.creeper  {
+    width: 8.125rem;
+    border: #FFF;
+}
+.terra{
+    width: 100px;
+    border: #FFF;
+}
+
+.pick{
+    width: 200px ;
+    border: #FFF;
+    
+}
+
+.home img{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imagemAmazonia{
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.textosamazonia p{
+    color: #FFF;
+    width: 16.8125rem;
+    height: 9.9375rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem; 
+    letter-spacing: 0.06125rem;
+    opacity: 0.8;
+}
+.textosamazonia h1{
+    color: #FFF;
+    font-size: 3.125rem;
+}
+
+.title .line {
+    height: 3px;
+    width: 11.375rem;
+    background: #318B55;
+}
