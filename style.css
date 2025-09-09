@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'nexa';
+    src: url('./Nexa-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'mirza';
+    src: url('./Mirza-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'mirza-medium';
+    src: url('./Mirza-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
 body {
     background-color: #011428;
     overflow-x: hidden;
@@ -56,6 +74,8 @@ body {
     font-weight: 700;
     line-height: normal;
     text-align: center;
+    font-family: "mirza", sans-serif;
+    text-transform: uppercase;
 }
 
 a {
@@ -68,6 +88,8 @@ a {
     font-style: normal;
     line-height: normal;
     margin-top: 1.5rem;
+    font-family:"nexa", sans-serif;
+
 }
 
 
@@ -84,8 +106,10 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    font-family: "mirza", sans-serif;
+    padding-bottom: 2.2rem;
 
-    ;
+    
 }
 
 .minecraft-btn:hover {
@@ -109,6 +133,9 @@ h1 {
     color: #fff;
     font-weight: 900;
     line-height: normal;
+    font-family:"nexa", sans-serif;
+    margin-bottom: 1rem;
+
 }
 
 .p-inicio {
@@ -119,6 +146,9 @@ h1 {
     font-weight: 500;
     line-height: 1.56rem;
     text-align: left;
+    font-family: "Montserrat", sans-serif;
+    opacity: 0.8;
+    margin-bottom: 1.4rem;
 }
 
 .imagem-card {
@@ -136,9 +166,10 @@ h1 {
         color: #FFF;
         font-size: 1.25rem;
         font-style: normal;
-        font-weight: 900;
         line-height: normal;
         margin-bottom: 1rem;
+        font-family: "nexa", sans-serif;
+    
 
     }
     
@@ -170,25 +201,27 @@ margin-right: 0.7rem;
         color: #FFF;
         font-size: 1.12rem;
         font-style: normal;
-        font-weight: 900;
         line-height: normal;
         margin-inline: auto;
+        font-weight: 600;
         width: 9.375rem;
         height: 1.25rem;
         padding-left: 0.2rem;
+        font-family: "nexa", sans-serif;
     }
     
     p {
         margin-top: 1.56rem;
         color: #FFF;
         text-align: center;
-        font-size: 0.875rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 500;
         line-height: 0.9375rem;
-        Width: 10rem;
+        Width: 11,125rem;
         margin-inline: auto;
         opacity: 0.6;
+        font-family: "mirza-medium", sans-serif;
     }
     
     .card-2 {
@@ -205,12 +238,14 @@ margin-right: 0.7rem;
         color: #FFF;
         font-size: 1.12rem;
         font-style: normal;
-        font-weight: 900;
+        font-weight: 600;
         line-height: normal;
         margin-inline: auto;
         width: 10rem;
         height: 1.25rem;
         padding-left: 0.2rem;
+        font-family: "nexa", sans-serif;
+
 }
 
 
@@ -228,13 +263,15 @@ margin-right: 0.7rem;
     color: #FFF;
     font-size: 1.12rem;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 600;
     line-height: normal;
     margin-inline: auto;
-    width: 15rem;
+    width: 11.375rem;
     height: 1.25rem;
     padding-left: 0.2rem;
     margin-left: 3rem;
+    font-family: "nexa", sans-serif;
+
 }
 
 }
