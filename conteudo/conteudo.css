@@ -147,6 +147,14 @@ display: flex;
   margin-bottom: 0.5rem;
 }
 
+.h1-ama{
+    color: #FFF;
+font-size: 3rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
 .conteudo p, h2{
     display: flex;
     justify-content: center;
@@ -181,3 +189,41 @@ h5{
     opacity: 0.3;
     color: #FFF;
 }
+
+
+.animais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.p-fauna{
+    width: 41.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.p-local{
+    margin-bottom: 5rem;
+    width: 52.18rem;
+   text-align: center;
+   margin-inline: auto;
+
+   color: #FFF;
+text-align: justify;
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+
+}
+
+.img-local{
+
+    margin-inline: auto;
+    margin-bottom: 2rem;
+}
+
+
