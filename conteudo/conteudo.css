@@ -5,10 +5,15 @@
 }
 
 body {
-    background: radial-gradient(23.5% 40.61% at 50.83% 57.76%, rgba(0, 0, 0, 0) 0%, #011428 100%), #083059;  
     background-position: center;
     background-size: cover;
     font-family: Nexa, Arial, sans-serif;
+    background-color: #011428;
+}
+.section-1{
+    background: radial-gradient(23.5% 40.61% at 50.83% 57.76%, rgba(0, 0, 0, 0) 0%, #011428 100%), #083059;  
+background-size: cover;
+display: contents; 
 }
 
 
@@ -74,61 +79,105 @@ nav a {
     transition: background 0.3s ease, color 0.3s ease;
 }
 .seta{
- 
-  gap: 6rem;
+
     padding-left: 55.20rem;
 }
 .home {
-    display: flex;
-}
-.creeper  {
-    width: 8.125rem;
-    border: #FFF;
-}
-.terra{
-    width: 100px;
-    border: #FFF;
+    display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;      
 }
 
-.pick{
-    width: 200px ;
-    border: #FFF;
-    
-}
 
 .home img{
+    
     justify-content: center;
     align-items: center;
-    
+    display: flex;
+    padding-right: 41.25rem;
 }
 
 .imagemAmazonia{
     justify-content: center;
     align-items: center;
-
+display: flex;
     
 }
 .textosamazonia p{
     color: #FFF;
     width: 16.8125rem;
-    height: 9.9375rem;
     flex-shrink: 0;
     color: #FFF;
     font-family: Montserrat;
-    font-size: 0.875rem;
+   
     font-style: normal;
-    font-weight: 500;
-    line-height: 1.25rem; 
+ 
     letter-spacing: 0.06125rem;
     opacity: 0.8;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
 }
 .textosamazonia h1{
     color: #FFF;
     font-size: 3.125rem;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+
 }
+
+.textosamazonia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+  }
 
 .title .line {
     height: 3px;
     width: 11.375rem;
     background: #318B55;
+    font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.conteudo p, h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    color: #FFF;
+}
+.conteudo h2 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #318B55;
+    text-decoration-thickness: 0.125rem; /* 2px */
+    text-underline-offset: 0.3125rem;    /* 5px */
+}
+.cobra img{
+display: flex;
+    width: 240px;
+height: 336px;
+flex-shrink: 0;
+
+}
+
+.conteudo img {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+h5{
+    opacity: 0.3;
+    color: #FFF;
 }

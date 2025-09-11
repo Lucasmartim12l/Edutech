@@ -531,11 +531,11 @@ font-family: "Montserrat", sans-serif;
 
 
   .game-section{
-    margin-top: 40rem;
-    margin-right: 300rem;
-    width: 87rem;
-     height: 100vh;
-      
+    min-width: 300rem;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    margin-top: 35rem;
   }
 
 
