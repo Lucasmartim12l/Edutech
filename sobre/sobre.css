@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+margin: 0;
+padding: 0;
+height: 100vh;
+background-color: #081722;
+color: white;
+}
+
+.container {
+display: flex;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+height: 100%;
+display: flex;
+justify-content: center; 
+align-items: center;
+}
+
+
+.header {
+position: absolute;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 10;
+padding: 10px 60px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.navigation {
+gap: 2.88rem;
+  display: flex;
+  width: 4rem;
+height: 1.5rem;
+flex-shrink: 0;
+  justify-content: space-between;
+  margin-left: 26rem;
+  padding: 2.19rem ;
+
+}
+
+.navigation a {
+font-family: 'Minecraftia', sans-serif;
+color: white;
+text-decoration: none;
+font-weight: 700;
+font-size: 1rem;
+cursor: pointer;
+}
+
+.navigation a:hover {
+text-decoration: underline;
+}
+
+.logoa {
+
+position: absolute;
+top: 0.62rem;     
+left: 11.75rem;  
+width: auto;
+height: auto;
+
+
+}
+
+
+.login {
+background-color: transparent;
+border: 2px solid #FFF;
+border-radius: 1rem;
+color: #fff;
+height: 2.25rem;
+padding-inline: 2rem;
+font-size: 1rem;
+font-weight: 700;
+cursor: pointer;
+position: absolute;
+top: 2.19rem;     
+right: 9.81rem;   
+width: auto;
+height: auto;
+}
+
+.login:hover {
+background-color: white;
+color: #36703c;
+}
+
+
+.left-side {
+flex: 1;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+background-color: #081722;
+overflow: hidden;
+}
+
+.minecraft-img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+.right-side {
+flex: 1;
+background-color: #0a1a2a;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+padding: 80px 60px;
+position: relative;
+}
+
+.title {
+
+width: 22rem;
+height: 4.75rem;
+color: #FFFFFF;
+font-family: 'Minecraftia', Nexa, sans-serif;
+font-size: 4.375rem; 
+font-style: normal;
+font-weight: 900;
+line-height: 1.1;
+text-transform: uppercase;
+opacity: 0.9; 
+border-bottom: 4px solid #36703c; 
+margin-bottom: 1.5rem;
+text-align: center;
+
+
+}
+
+form {
+width: 100%;
+max-width: 380px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 0.8rem; 
+}
+
+label {
+align-self: flex-start;
+font-weight: 900;
+font-family: 'Minecraftia', Nexa, sans-serif;
+opacity: 0.8;
+margin-bottom: 0.15rem; 
+font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 8px 10px; 
+border: 2px solid #36703c;
+border-radius: 8px;
+background-color: #112533;
+color: #fff;
+font-family: 'Minecraftia', sans-serif;
+font-size: 14px;
+outline: none;
+transition: border-color 0.3s;
+}
+
+.textarea-container {
+position: relative;
+width: 100%;
+}
+
+textarea {
+width: 100%;
+height: 150px; 
+padding: 10px 40px 10px 12px; 
+border: 2px solid #36703c;
+border-radius: 8px;
+background-color: #112533;
+color: #fff;
+font-family: 'Minecraftia', sans-serif;
+font-size: 0.875rem;
+font-weight: 700;
+resize: none;
+text-align: left;
+outline: none;
+}
+
+button[type="submit"] {
+width: 100%;
+max-width: 380px;
+height: 2.5rem; 
+background-color: #318B55;
+color: #fff;
+font-family: 'Minecraftia', sans-serif;
+font-size: 1rem;
+font-weight: 700;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+text-align: center;
+margin-bottom: 0.5rem;
+}
+
+
+
+
+.faq-link {
+font-size: 11px;
+color: #36703c;
+font-weight: bold;
+cursor: pointer;
+text-decoration: underline;
+text-align: center;
+width: 100%;
+}

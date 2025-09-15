@@ -153,6 +153,8 @@ font-size: 3rem;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
+margin-top: 3rem;
+margin-bottom: 3rem;
 }
 
 .conteudo p, h2{
@@ -167,8 +169,8 @@ line-height: normal;
     text-decoration-style: solid;
     text-decoration-skip-ink: none;
     text-decoration-color: #318B55;
-    text-decoration-thickness: 0.125rem; /* 2px */
-    text-underline-offset: 0.3125rem;    /* 5px */
+    text-decoration-thickness: 0.125rem; 
+    text-underline-offset: 0.3125rem;   
 }
 .cobra img{
 display: flex;
