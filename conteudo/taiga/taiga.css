@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    font-family: Nexa, Arial, sans-serif;
+    background-color: #011428;
+}
+.section-1{
+    background: radial-gradient(23.5% 40.61% at 50.83% 57.76%, rgba(0, 0, 0, 0) 0%, #011428 100%), #083059;  
+background-size: cover;
+display: contents; 
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 6rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+
+nav img {
+    width: 5.8rem;
+    height: 6rem;
+    flex-shrink: 0;
+    opacity: 0.9;
+    border: none;
+    outline: none;
+
+
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: normal;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+    
+}
+
+
+
+
+.cnt {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #318B55;
+    text-decoration-thickness: 0.125rem; /* 2px */
+    text-underline-offset: 0.3125rem;    /* 5px */
+}
+
+
+.login {
+    width: 8rem;
+    height: 2.31rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    border: 0.125rem solid #FFF;
+    opacity: 0.9;
+    background-color: #021325;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.seta{
+
+    padding-left: 55.20rem;
+}
+.home {
+    display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;      
+}
+
+
+.home img{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 41.25rem;
+}
+
+.imagemAmazonia{
+    justify-content: center;
+    align-items: center;
+display: flex;
+    
+}
+.textosamazonia p{
+    color: #FFF;
+    width: 16.8125rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+   
+    font-style: normal;
+ 
+    letter-spacing: 0.06125rem;
+    opacity: 0.8;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+}
+.textosamazonia h1{
+    color: #FFF;
+    font-size: 3.125rem;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.textosamazonia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+  }
+
+.title .line {
+    height: 3px;
+    width: 11.375rem;
+    background: #318B55;
+    font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.h1-ama{
+    color: #FFF;
+font-size: 3rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin-top: 3rem;
+margin-bottom: 3rem;
+}
+
+.conteudo p, h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    color: #FFF;
+}
+.conteudo h2 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #318B55;
+    text-decoration-thickness: 0.125rem; 
+    text-underline-offset: 0.3125rem;   
+}
+.cobra img{
+display: flex;
+    width: 240px;
+height: 336px;
+flex-shrink: 0;
+
+}
+
+.conteudo img {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+h5{
+    opacity: 0.3;
+    color: #FFF;
+}
+
+
+.animais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.p-fauna{
+    width: 41.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.p-local{
+    margin-bottom: 5rem;
+    width: 52.18rem;
+   text-align: center;
+   margin-inline: auto;
+
+   color: #FFF;
+text-align: justify;
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+
+}
+
+.img-local{
+
+    margin-inline: auto;
+    margin-bottom: 2rem;
+}
+
+
